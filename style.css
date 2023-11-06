@@ -1,0 +1,167 @@
+* {
+    font-family:"Montserrat";
+    margin:0;
+    padding:0;
+}
+
+body {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(220, 220, 220);
+}
+
+.container-calculator{
+    width:360px;
+    height:850px;
+    background-color: rgb(50, 49, 49);
+    border-radius:30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box{
+    height: 50%;
+}
+
+.container-buttons{
+    height:50%;
+    display:grid;
+    grid-template-areas:
+        "button-del button-sqrt button-mod button-div"
+        "button7 button8 button9 button-multi"
+        "button4 button5 button6 button-minus"
+        "button1 button2 button3 button-plus"
+        "button0 button0 button-point button-equal";
+    grid-template-columns:70px 70px 70px 70px;
+    grid-template-rows:70px 70px 70px 70px 70px;
+    gap:15px;
+    margin-left:1rem;
+}
+
+.button{
+    color: #fff;
+    border:none;
+    border-radius:50px;
+    font-size: 24px;
+}
+
+#button0{
+    grid-area: button0;
+    background-color: #707070;
+}
+
+#button1{
+    grid-area:button1;
+    background-color: #707070;
+}
+
+#button2{
+    grid-area:button2;
+    background-color: #707070;
+}
+
+#button3{
+    grid-area:button3;
+    background-color: #707070;
+}
+
+#button4{
+    grid-area:button4;
+    background-color: #707070;
+}
+
+#button5{
+    grid-area:button5;
+    background-color: #707070;
+}
+
+#button6{
+    grid-area:button6;
+    background-color: #707070;
+}
+
+#button7{
+    grid-area:button7;
+    background-color: #707070;
+}
+
+#button8{
+    grid-area:button8;
+    background-color: #707070;
+}
+
+#button9{
+    grid-area:button9;
+    background-color: #707070;
+}
+
+#button-del{
+    grid-area:button-del;
+    background-color:#fd9f24;
+}
+
+#button-plus{
+    grid-area:button-plus;
+    background-color:#fd9f24;
+}
+
+#button-minus{
+    grid-area:button-minus;
+    background-color:#fd9f24;
+}
+
+#button-equal{
+    grid-area:button-equal;
+    background-color:#fd9f24;
+}
+
+#button-multi{
+    grid-area:button-multi;
+    background-color:#fd9f24;
+}
+
+#button-mod{
+    grid-area:button-mod;
+    background-color:#fd9f24;
+}
+
+#button-div{
+    grid-area:button-div;
+    background-color:#fd9f24;
+}
+
+#button-point{
+    grid-area:button-point;
+    background-color: #707070;
+}
+
+#button-sqrt{
+    grid-area:button-sqrt;
+    background-color:#fd9f24;
+}
+
+.calculator-textbox{
+    margin-top:90%;
+    margin-left:15px;
+    margin-right:15px;
+    width:320px;
+    font-size:75px;
+    text-align: right;
+    border:none;
+    outline:none;
+    background:none;
+    color:white;
+    overflow-y: auto;
+}
+
+.calculator-textbox:hover{
+    cursor:default;
+}
+
+.button:hover{
+    cursor:pointer;
+    background-color:white !important;
+    color:#707070;
+    transition: 0.5s;
+}
