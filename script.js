@@ -3,10 +3,6 @@ const textBox = document.querySelector(".calculator-textbox");
 let numberPoint = 0;
 let result = 0;
 
-function calculateValue(button){
-   
-}
-
 function updateText(button){
     textBox.value = textBox.value + button.textContent;
     textBox.scrollLeft = textBox.scrollWidth;
