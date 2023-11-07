@@ -49,96 +49,115 @@ body {
 #button0{
     grid-area: button0;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button1{
     grid-area:button1;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button2{
     grid-area:button2;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button3{
     grid-area:button3;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button4{
     grid-area:button4;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button5{
     grid-area:button5;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button6{
     grid-area:button6;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button7{
     grid-area:button7;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button8{
     grid-area:button8;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button9{
     grid-area:button9;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button-del{
     grid-area:button-del;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-plus{
     grid-area:button-plus;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-minus{
     grid-area:button-minus;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-equal{
     grid-area:button-equal;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-multi{
     grid-area:button-multi;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-mod{
     grid-area:button-mod;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-div{
     grid-area:button-div;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 #button-point{
     grid-area:button-point;
     background-color: #707070;
+    transition: background-color 0.5s;
 }
 
 #button-sqrt{
     grid-area:button-sqrt;
     background-color:#fd9f24;
+    transition: background-color 0.5s;
 }
 
 .calculator-textbox{
