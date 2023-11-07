@@ -3,6 +3,25 @@ const textBox = document.querySelector(".calculator-textbox");
 let numberPoint = 0;
 let result = 0;
 
+function calculateValue(button){
+    if(button.textContent == "="){
+        try {
+            result = eval(textBox.value);
+            textBox.value = result;
+
+            if(textBox.value.includes("."))
+                numberPoint = 1;
+            else
+                numberPoint = 0;
+            
+        } catch (error) {
+            textBox.value = "Error";
+        }
+    } 
+    else
+        updateText(button);
+}
+
 function updateText(button){
     textBox.value = textBox.value + button.textContent;
     textBox.scrollLeft = textBox.scrollWidth;

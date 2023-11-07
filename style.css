@@ -28,7 +28,7 @@ body {
     height:50%;
     display:grid;
     grid-template-areas:
-        "button-del button-sqrt button-mod button-div"
+        "button-del button-del button-mod button-div"
         "button7 button8 button9 button-multi"
         "button4 button5 button6 button-minus"
         "button1 button2 button3 button-plus"
@@ -151,12 +151,6 @@ body {
 #button-point{
     grid-area:button-point;
     background-color: #707070;
-    transition: background-color 0.5s;
-}
-
-#button-sqrt{
-    grid-area:button-sqrt;
-    background-color:#fd9f24;
     transition: background-color 0.5s;
 }
 
